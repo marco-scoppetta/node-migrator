@@ -1,0 +1,17 @@
+{
+  "name": "grakn-node-migrator",
+  "version": "0.0.1",
+  "description": "Grakn Node.js Migrator",
+  "scripts": {
+    "build": "rm -rf dist/ && babel src -d dist"
+  },
+  "dependencies": {
+    "grakn": "1.2.2",
+    "papaparse": "^4.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3"
+  }
+}
